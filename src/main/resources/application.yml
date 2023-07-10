@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: demo-service
+  main:
+    allow-circular-references: true
+logging:
+  level:
+    root: info
+    org:
+      springframework: DEBUG
