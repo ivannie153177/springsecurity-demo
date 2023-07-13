@@ -53,7 +53,6 @@ public class SecurityConfig {
                 .authenticated()
                 .and()
                 .cors().configurationSource(corsConfigurationSource).and()
-                //关闭跨站请求防护
                 .csrf().disable()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()

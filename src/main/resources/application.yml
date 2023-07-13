@@ -10,3 +10,5 @@ logging:
     root: info
     org:
       springframework: DEBUG
+ignored:
+  /error
